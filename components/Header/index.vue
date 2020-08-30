@@ -18,6 +18,7 @@
     box-shadow: none 5px 10px #888;
     display: flex;
     align-items: center;
+    margin-bottom: 24px;
 
     .logo {
         margin: 10px 10px 10px 16px;

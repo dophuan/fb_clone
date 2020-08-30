@@ -3,13 +3,13 @@
     <nav-bar/>
     <div class="post-layout">
       <div class="row">
-        <div class="col-sm">
+        <div class="col-lg-4">
           <!-- Sidebar -->
         </div>
-        <div class="col-sm">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
           <post/>
         </div>
-        <div class="col-sm">
+        <div class="col-lg-4">
           <!-- chat box -->
         </div>
       </div>
