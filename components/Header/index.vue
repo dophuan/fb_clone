@@ -1,6 +1,16 @@
 <template>
     <div class="header">
-        <img src="../../static/fb-log.png" class="logo" alt="Logo"/>
+        <div class="header__left">
+            <img src="../../static/fb-log.png" class="logo" alt="Logo"/>
+        </div>
+
+        <div class="header__middle">
+
+        </div>
+
+        <div class="header__right">
+            
+        </div>
     </div>
 </template>
 
