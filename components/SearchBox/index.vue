@@ -1,6 +1,6 @@
 <template>
     <div class="form-group">
-        <input type="text" class="searchbox" placeholder="Search on FB">
+        <input type="text" class="searchbox" placeholder='$t("searchbox.placeholder")'>
     </div>
 </template>
 

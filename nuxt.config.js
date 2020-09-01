@@ -52,6 +52,24 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    ['nuxt-i18n',
+    {
+      locales: [
+        {
+          name: 'English',
+          code: 'en',
+          file: 'en-us.js'
+        },
+        {
+          name: 'Tiếng Việt',
+          code: 'en',
+          file: 'vi-vn.js'
+        }
+      ],
+      lazy: true,
+      langDir: 'lang/',
+      defaultLocale: 'en',
+    }]
   ],
   /*
   ** Build configuration
